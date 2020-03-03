@@ -1,2 +1,9 @@
 # tower-of-hanoi-rust
-Rust implementation of a Tower of Hanoi puzzle and solver
+Simple Tower of Hanoi puzzle solver in Rust
+
+         |          |          |
+         |          |          |
+         |          |        [ | ]
+         |          |       [  |  ]
+         |         [|]     [   |   ]
+    =================================
