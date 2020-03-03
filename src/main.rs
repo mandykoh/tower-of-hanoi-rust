@@ -1,9 +1,9 @@
 mod tower_of_hanoi;
 
 fn main() {
-    let mut x = tower_of_hanoi::puzzle_with_discs(3);
+    let mut puzzle = tower_of_hanoi::puzzle_with_discs(3);
 
-    println!("{}", x);
+    println!("{}", puzzle);
 
-    x.solve(|p| println!("{}", p));
+    puzzle.solve(|p| println!("{}", p));
 }
