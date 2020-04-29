@@ -1,5 +1,5 @@
 [package]
-name = "rust-test"
+name = "tower_of_hanoi"
 version = "0.1.0"
 authors = ["Amanda Koh <amanda@naucera.net>"]
 edition = "2018"
